@@ -4,12 +4,12 @@
 
 # code generer par :djibysoft
 
-from PySide2.QtWidgets import QApplication,QHBoxLayout, QHBoxLayout, QLabel,QPushButton,QTextEdit, QLineEdit, QVBoxLayout, QWidget, QRadioButton, QButtonGroup
+from PySide6.QtWidgets import QApplication,QHBoxLayout, QHBoxLayout, QLabel,QPushButton,QTextEdit, QLineEdit, QVBoxLayout, QWidget, QRadioButton, QButtonGroup
 
 import os, sys
 import wget
-from PySide2.QtCore import QUrl
-from PySide2.QtWebEngineWidgets import QWebEngineView, QWebEnginePage
+from PySide6.QtCore import QUrl
+# from PySide2.QtWebEngineWidgets import QWebEngineView, QWebEnginePage
 
 class Fen(QWidget):
     def __init__(self):
